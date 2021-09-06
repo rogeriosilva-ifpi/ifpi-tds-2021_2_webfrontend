@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #40c4ff;
+}
+
+div {
+  border: 0.1rem solid white;
+  padding: 1rem;
+}
+
+#container {
+  border: 0.1rem solid red;
+  padding: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#titulo {
+  height: 12rem;
+  margin-bottom: 1rem;
+}
+
+#dados {
+  height: 16rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
