@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="compras.js"></script>
+    <title>App Compras</title>
+  </head>
+  <body>
+    <h1>Lista de Compras</h1>
+    <section>
+      <p>Itens na Lista: <span id="contador_itens">-</span></p>
+      <p>Itens Comprados: <span id="contador_itens_comprados">-</span></p>
+    </section>
+
+    <section>
+      <h2>Novo Item</h2>
+      <form action="#">
+        <input type="text" id="nome" />
+        <input type="text" id="qtd" />
+        <input type="submit" id="btn_cadastrar" value="Cadastrar" />
+      </form>
+
+      <h2>Itens Cadatrados</h2>
+      <ol id="itens">
+        <!-- <li>
+          <span>Ovos - 1 cartela</span>
+          <input type="checkbox" class="comprar" />
+          <button>Remover</button>
+        </li> -->
+      </ol>
+    </section>
+  </body>
+</html>
