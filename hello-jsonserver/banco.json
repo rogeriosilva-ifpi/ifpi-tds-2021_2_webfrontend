@@ -1,0 +1,19 @@
+{
+  "animais": [
+    {
+      "id": 1,
+      "nome": "Rabito",
+      "idade": 7
+    },
+    {
+      "id": 2,
+      "nome": "Pipoca",
+      "idade": 5
+    },
+    {
+      "nome": "Bolotinha",
+      "idade": 1,
+      "id": 3
+    }
+  ]
+}
