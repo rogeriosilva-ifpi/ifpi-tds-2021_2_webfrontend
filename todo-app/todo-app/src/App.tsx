@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { HeaderLadoDireito } from './componentes/layout/HeaderLadoDireto';
+import { HeaderLadoEsquerdo } from './componentes/layout/HeaderLadoEsquerdo';
 import { Rotas } from './rotas';
 
 
@@ -7,11 +9,8 @@ function App() {
   return (
     <div className="container">
         <header>
-          <p>App Tarefas</p>
-          <nav>
-            <a href="/">Minhas Tarefas</a>--
-            <a href="/nova-tarefa">Nova Tarefa</a> 
-          </nav>
+          <HeaderLadoEsquerdo />
+          <HeaderLadoDireito />
         </header>
         <main>
             <Rotas />

@@ -1,4 +1,5 @@
 
+import { BotaoFlutuante } from '../../componentes/BotaoFlutuante'
 import estilos from './estilo.module.css'
 
 export function Tarefas(){
@@ -9,6 +10,8 @@ export function Tarefas(){
         <li>Cortar a grama</li>
         <li>Limpar a casa</li>
       </ul>
+      <BotaoFlutuante />
     </div>
+    
   )
 }
