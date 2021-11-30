@@ -1,0 +1,18 @@
+.header_lado_esquerdo {
+  flex: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 0.4rem solid #3f4f95;
+}
+
+.header_lado_esquerdo p {
+  color: #3f4f95;
+  font-weight: 500;
+  background-color: #bccbdf;
+  flex-grow: 1;
+  height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
